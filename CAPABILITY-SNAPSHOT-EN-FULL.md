@@ -464,10 +464,10 @@ Listed so that coverage can be verified; they are not current capabilities:
 |---|---|
 | Entries in the internal ledger | 243 |
 | Covered here | 263 (seventeen capability areas) + 8 (Appendix B) = 271 rows |
-| Ledger entries in total | 393 (243 in the main body + 150 appended at the end) |
+| Ledger entries in total | 395 (243 in the main body + 152 appended, including the two entries this mechanism added about itself) |
 | Merged into one row | 5 (two ends of one capability shown as a single row; see the Ref column) |
-| Deliberately not in this document | 117 (internal operations, defect fixes, governance and clean-up records; each judged in an internal ledger, and any unjudged entry fails the check) |
-| Verification | 243 main-body entries matched one by one; 150 appended entries judged one by one; a missing row, a duplicate or any unjudged entry fails the run |
+| Deliberately not in this document | 119 (internal operations, defect fixes, governance and clean-up records; each judged in an internal ledger, and any unjudged entry fails the check) |
+| Verification | 243 main-body entries matched one by one; 152 appended entries judged one by one; a missing row, a duplicate or any unjudged entry fails the run |
 | Reading the check | three numbers are always reported: main body covered / appended judged / appended unjudged; "fully covered" alone is not a pass |
 | Watermark | judgement as of 2026-10-28; entries added later count only once they are judged |
 | Traceability | follow the "Ref" column back into the ledger, where each entry carries its last verification date and method |

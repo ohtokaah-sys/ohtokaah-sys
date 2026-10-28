@@ -1,11 +1,11 @@
 # Capability Snapshot — full edition
 
-> **Version**: 2026-10-28, v1 (English full edition)
+> **Version**: 2026-10-28, v2 (English full edition)
 > **Readers**: external parties and leadership. Sections I–III give enough to form a judgement; the tables are the per-capability record, for verification rather than reading end to end.
 > **Convention**: this document states only *what it can do, how far it goes, and where it stops*. Implementation detail and internal process stay in a separate internal ledger.
 > **Scope**: describes one single-machine deployment. Configuration, data and integration for a specific organisation are delivered separately and are not promised here.
 > **Figures**: change with use; confirm against the latest on-site check before quoting them externally.
-> **Maintenance**: updated irregularly — when a capability changes at the level of *have / don't have* or *can / can't*, and before any external submission.
+> **Maintenance**: updated irregularly — when a capability changes at the level of *have / don't have* or *can / can't*, and before any external submission; each update ends with the three check numbers (main body covered / appended judged / appended unjudged).
 
 ## How to read
 
@@ -163,6 +163,10 @@ The change is not "writing faster". It is four things:
 | 7.14 | Evidence before change | before deciding to fix something, first establishes statistically that the problem is real | no data, no conclusion | T24 |
 | 7.15 | Pre-change reminder | detects whether this turn touches processes or rules, and appends a checklist | self-suppresses after repeated identical cases, to avoid nagging | T36 |
 | 7.16 | Travel planning | audits an existing itinerary on four layers, or generates one; delivers an offline-openable page | transport and lodging details are marked as unverified | T134 |
+| 7.17 | Long-horizon study plan | a week-by-week study and practice plan with reminders; the pace can be adjusted at any time | the parent confirms the content; the system does not set the pace | T63 |
+| 7.18 | Sector playbook | a packaged way of working for one sector, from selection and content to placement, applied straight to a live project | a method framework; landing decisions stay with the business owner | T132 |
+| 7.19 | Intelligence analysis | grades sources by reliability, offers competing explanations and states what would falsify each | conclusions use likelihood wording, never certainty | C29 |
+| 7.20 | Compliance playbook | organises security-grading, cryptographic assessment and risk work by standard clause and concludes clause by clause | citations must name the standard and its year | C28 |
 
 ## VIII. Reading material
 
@@ -181,6 +185,7 @@ The change is not "writing faster". It is four things:
 | 8.11 | Cloud transcription | recordings uploaded directly, with word-level timing | billed per hour | T43 |
 | 8.12 | Session keep-alive | checks daily whether the sign-in still works and warns when it does not | credentials are stored encrypted and never displayed | T44 |
 | 8.13 | Video analysis | a link → choose depth → automatic processing → staged progress → report | long videos take a long time | T45 |
+| 8.14 | Live web lookup | searches the web at the moment of need and cross-checks several sources before answering | results still need review; paywalled content is not fetched | T68 |
 
 ## IX. Presentation and media
 
@@ -223,6 +228,14 @@ The change is not "writing faster". It is four things:
 | 10.20 | Long-conversation anchoring | reopening a long conversation starts at the right place instead of being overwritten by older pages | a display-order issue; no record was ever lost | T170 |
 | 10.21 | Long tasks survive disconnect | leaving the page does not cancel the run | an explicit stop still stops; new messages queue meanwhile | T171 |
 | 10.22 | Visible activity | with reasoning hidden, the interface still shows "working" and which tool is running | supported on some clients only | T175 |
+| 10.23 | Desktop client | a separately installed Windows program sharing one body of experience with the web and mobile entries | verified on Windows only | T137 |
+| 10.24 | Upgrades keep your data | if the product is already installed it upgrades instead: back up, then replace, leaving the data area untouched | the service pauses briefly during the upgrade | T191 |
+| 10.25 | Whole package on a drive | the entire capability set ships on one removable drive: installer, runtime and desktop program | after delivery, version updates mean reinstalling | T192 |
+| 10.26 | Portable library | the material library travels with the package and is searchable once installed, without an external service | refreshing it means regenerating it once | T190 |
+| 10.27 | Large-file exchange | send and receive large files without watching, resume after interruption, no per-file size cap | actual time depends on the network | T158 |
+| 10.28 | Several attachments at once | drag or paste several files into the conversation and send them as one message together with the text | too many at once must be split | T183 |
+| 10.29 | Files on mobile | view, download and list sent files directly on the phone | the listing stops at the top level | T143 |
+| 10.30 | Long content on mobile | body text is typeset on the phone and wide tables scroll sideways | complex tables are cramped | T144 |
 
 ## XI. Autonomy
 
@@ -246,6 +259,8 @@ The change is not "writing faster". It is four things:
 | 11.16 | Long-task progress | start and finish of each asynchronous task recorded in pairs | early versions recorded starts only; fixed | A16 |
 | 11.17 | Cost report | daily cost by provider and by purpose | some providers are estimated from balance differences, not billed data | A17 |
 | 11.18 | Unattended operation | with authorisation, works through a list on its own, taking only reversible actions | items needing a decision are listed, not decided; never touches floors or permissions | S22 |
+| 11.19 | Nothing silently lost | a message that cannot be sent enters a retry queue and is delivered once possible, and does not count as a failure | attachments stay out of the retry queue | T177 |
+| 11.20 | Fallback channels | when the main channel is unavailable for long, a slow channel takes over and mail is the last resort | delivery is assured, timing is not | T108 |
 
 ## XII. Quality assurance
 
@@ -310,6 +325,8 @@ The change is not "writing faster". It is four things:
 | 13.16 | Acceptance dimensions | each acceptance standard paired with a named mechanism and one executable check | needs a named mechanism first, or the table is empty | Q17 |
 | 13.17 | Versioned history | key content kept by version, answering "can we return to a past point" | whitelisted content only | Q18 |
 | 13.18 | Procedure slimming | the main file keeps criteria and pointers; examples move to attachments | attachments are not machine-checked; pointers are reviewed by hand | T166 |
+| 13.19 | Whole-set migration | move an entire capability set to another environment: compare first, then copy by grade | a person decides what to keep | T103 |
+| 13.20 | Capability baseline | compares two environments item by item on one fixed set of dimensions and prints the differences | the dimensions are set by a person | T105 |
 
 ## XIV. Security and access
 
@@ -338,6 +355,9 @@ The change is not "writing faster". It is four things:
 | 14.21 | Exemption watchdog | applies a check to the act of exempting checks itself | any output fails it; a reverse test proves it is not decorative | R27 |
 | 14.22 | Declaration consistency | the declaration and the actual contents must agree in both directions | consistency only, not quality | R28 |
 | 14.23 | Public entry point | internal services exposed to a defined audience over an encrypted channel | the channel is a single point; no independent external monitoring | R30 |
+| 14.24 | Scrub before publishing | before anything goes out, names, addresses, paths and credentials are scanned and every hit is listed | only known shapes are caught | T88 |
+| 14.25 | Sensitive files refused | files carrying keys, certificates or accounts are refused unless an explicit switch is set | judged by name and extension only | T199 |
+| 14.26 | Uploads kept per person | material lands in the uploader's own area, and search only sees your own | one external service is shared | T195 |
 
 ## XV. Stability
 
@@ -386,6 +406,9 @@ The change is not "writing faster". It is four things:
 | 16.07 | Session migration | reuses an existing sign-in instead of signing in repeatedly | sessions expire | T27 |
 | 16.08 | Integration method | four stages: research → implement → review → evaluate | the standard path for adopting a new tool | T28 |
 | 16.09 | Voice cloning | synthesises from a short reference recording | experimental; not promised for production | T29 |
+| 16.10 | Maps and routes | fetches places, routes and distances and renders an offline-openable map page | no live traffic | T140 |
+| 16.11 | Lodging comparison | queries two lodging platforms at once and compares price and location | prices move; verify at the moment of use | T127 |
+| 16.12 | Customer-specific delivery | brand, feature scope and install path are customised per customer, delivered as one package with an upgrade path | scope must be agreed first | T97 |
 
 ## XVII. Multiple users
 
@@ -396,6 +419,8 @@ The change is not "writing faster". It is four things:
 | 17.03 | Profile synchronisation | one side is authoritative; the other syncs periodically; conflicts go to a person | syncs the profile only, not all content | P03 |
 | 17.04 | Procedure sync across accounts | compare before copying: grade the differences → overwrite or patch → two-person review | never blind-overwrites, so local customisation survives | P04 |
 | 17.05 | Procedure review | personal finding → peer review → owner approval → shared library | needs several people; a single-user case degrades to self-review | P05 |
+| 17.06 | Separate entry per family member | each member has their own entry and sign-in, with independent conversations | one machine is shared | T178 |
+| 17.07 | Per-member libraries | each member's material is stored and searched in its own library, never mixed | each needs its own upkeep | T196 |
 
 ---
 
@@ -429,15 +454,22 @@ Listed so that coverage can be verified; they are not current capabilities:
 | B3 | A concurrent-writer gate design | not pursued; never shipped | T120 |
 | B4 | Duplicate rule-file injection | defect record, not a feature | R21 |
 | B5 | A three-tier search design | historical snapshot; primary replaced | R14 |
+| B6 | Old number of a merged bilingual entry | merged; no longer exists separately | T113 |
+| B7 | Web-based image-tool integration | retired; those tools are no longer available | T93 |
+| B8 | Alternative to removing external storage | assessed and dropped; solved physically instead | L2 |
 
 ## Appendix C: Coverage and verification
 
 | Item | Value |
 |---|---|
 | Entries in the internal ledger | 243 |
-| Covered here | 238 (seventeen capability areas) + 5 (Appendix B) = 243 |
-| Not covered | 0 |
-| Verification | each update is compared entry by entry against the ledger by an internal checker; a missing or duplicated entry fails the run |
+| Covered here | 263 (seventeen capability areas) + 8 (Appendix B) = 271 rows |
+| Ledger entries in total | 393 (243 in the main body + 150 appended at the end) |
+| Merged into one row | 5 (two ends of one capability shown as a single row; see the Ref column) |
+| Deliberately not in this document | 117 (internal operations, defect fixes, governance and clean-up records; each judged in an internal ledger, and any unjudged entry fails the check) |
+| Verification | 243 main-body entries matched one by one; 150 appended entries judged one by one; a missing row, a duplicate or any unjudged entry fails the run |
+| Reading the check | three numbers are always reported: main body covered / appended judged / appended unjudged; "fully covered" alone is not a pass |
+| Watermark | judgement as of 2026-10-28; entries added later count only once they are judged |
 | Traceability | follow the "Ref" column back into the ledger, where each entry carries its last verification date and method |
 
 **Maintenance rules**
@@ -446,10 +478,13 @@ Listed so that coverage can be verified; they are not current capabilities:
 2. Prohibited here: implementation detail, internal process, change history, file paths, device addresses, real names, personal accounts, cost bookkeeping.
 3. One row, one sentence per cell. If it does not fit, the capability itself is not yet clear.
 4. Gaps in numbering are expected (Chapter XV omits 15.14 and 15.21, moved to Appendix B); a new capability takes the highest number in its area plus one.
+5. A new ledger entry is judged first: only a perceptible capability, deliverable or channel earns a row here; internal operations and defect fixes stay in the internal judgement ledger.
+6. Every update reports the three check numbers (main body covered / appended judged / appended unjudged); missing any of them is not a completed update.
 
 | Version | Date | Change |
 |---|---|---|
 | v1 | 2026-10-28 | First full English edition, 243/243 coverage, seventeen areas |
+| v2 | 2026-10-28 | Covers the appended region: 25 new capability rows, 3 Appendix B entries; check now reports three numbers |
 
 ---
 
@@ -458,5 +493,4 @@ Listed so that coverage can be verified; they are not current capabilities:
 **How to cite**: capability statements here trace back to specific entries in an internal ledger. No personal identifiers, device addresses or internal paths appear in this document.
 
 **Reading time**: five minutes for the summary; about thirty for the full tables.
-
 

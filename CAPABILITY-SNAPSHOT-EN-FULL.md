@@ -462,7 +462,6 @@ Listed so that coverage can be verified; they are not current capabilities:
 
 | Item | Value |
 |---|---|
-| Entries in the internal ledger | 243 |
 | Covered here | 263 (seventeen capability areas) + 8 (Appendix B) = 271 rows |
 | Ledger entries in total | 395 (243 in the main body + 152 appended, including the two entries this mechanism added about itself) |
 | Merged into one row | 5 (two ends of one capability shown as a single row; see the Ref column) |

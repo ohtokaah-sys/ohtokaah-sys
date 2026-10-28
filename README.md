@@ -14,6 +14,7 @@ An always-on AI operator that reads material, produces finished documents, keeps
 |---|---|
 | [能力快照（中文，完整版）](小青能力快照_20261028.md) | 13 个能力维度、238 条能力明细、14 类已知限制 |
 | [Capability snapshot (English, executive)](CAPABILITY-SNAPSHOT-EN.md) | 10-minute version: capability map, three worked examples, known limitations |
+| [Capability snapshot (English, full)](CAPABILITY-SNAPSHOT-EN-FULL.md) | every entry: 17 areas, 238 rows, boundary stated per row |
 
 数字（2026-10-28）：238 条能力明细；243 条内部台账条目 100% 覆盖并机械校验；209 个无人值守定时任务（23 个模型驱动、186 个纯脚本）。
 
